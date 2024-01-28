@@ -5,10 +5,10 @@ import img1 from 'src/img/bg-screen1.jpg'
 import img2 from 'src/img/bg-screen1.jpg'
 import img3 from 'src/img/bg-screen1.jpg'
 import img4 from 'src/img/123123213.jpg'
+import img5 from 'src/img/ebaliga.jpg'
+import img6 from 'src/img/m.jpg'
 
-const images = [img1, img2, img3, img4]
-// currentImage, prevImage, nextImage
-// onClick ф-ция (direction) => {direction === right ? setImage(nextImage) : setImage(prevImage)}
+const images = [img1, img2, img3, img4, img5, img6]
 
 export const ImageSlider: React.FC = () => {
 
@@ -34,6 +34,8 @@ export const ImageSlider: React.FC = () => {
           type = styles.prev
         } else if (index === next) {
           type = styles.next
+        } else {
+          type = styles.toggle;
         }
         return (<img className={cx(styles.imageSliderItem, type)} src={image} key={index} alt="fdsdfs" />)
       })}

@@ -20,7 +20,7 @@ export const styles = {
     bottom: 0px;
     right: 0px;
     left: 0px;
-    transition: 0.5s;
+    transition: 0.4s;
   `,
   prev: css`
     right: auto;
@@ -33,6 +33,9 @@ export const styles = {
     filter: unset;
     z-index: 3;
   `,
+  toggle: css`
+  opacity: 0;
+`,
   button: css`
     position: absolute;
     width: 75px;
