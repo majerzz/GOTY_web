@@ -9,7 +9,7 @@ export const styles = {
   `,
   imageSliderItem: css`
     position: absolute;
-    max-width: 300px;
+    width: 300px;
     height: auto;
     user-select: none;
     filter: grayscale(80%) blur(1px);
@@ -20,6 +20,7 @@ export const styles = {
     bottom: 0px;
     right: 0px;
     left: 0px;
+    transition: 0.5s;
   `,
   prev: css`
     right: auto;
@@ -28,8 +29,26 @@ export const styles = {
     left: auto;
   `,
   active: css`
-  transform: scale(1.5);
-  filter: unset;
-  z-index: 2;
-`
+    transform: scale(1.5);
+    filter: unset;
+    z-index: 3;
+  `,
+  button: css`
+    position: absolute;
+    width: 75px;
+    height: 200px;
+    z-index: 2;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    cursor: pointer;
+  `,
+  buttonLeft: css`
+    right: auto;
+  `,
+  buttonRight: css`
+    left: auto;
+  `,
 }
