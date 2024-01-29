@@ -1,5 +1,5 @@
 import { css } from "@emotion/css";
-import background from "src/img/sectionOne.jpg"
+import background from "src/img/sectionOneAlternate.jpg"
 
 export const styles = {
   firstBlock: css`
