@@ -1,14 +1,20 @@
 import { cx } from '@emotion/css'
 import { useState } from 'react'
 import { styles } from 'src/components/ContentBlock/components/ImageSlider.styles'
+import img1 from 'src/img/bg-screen1.jpg'
+import img2 from 'src/img/bg-screen1.jpg'
+import img3 from 'src/img/bg-screen1.jpg'
+import img4 from 'src/img/123123213.jpg'
+import img5 from 'src/img/ebaliga.jpg'
+import img6 from 'src/img/m.jpg'
 
-type Props = {gameImages: any[]}
+const images = [img1, img2, img3, img4, img5, img6]
 
-export const ImageSlider: React.FC<Props> = ({gameImages}) => {
+export const ImageSlider: React.FC = () => {
 
   const [currentImage, setCurrentImage] = useState(0)
-  const prev = currentImage === 0 ? gameImages.length - 1 : currentImage - 1;
-  const next = currentImage === gameImages.length - 1 ? 0 : currentImage + 1;
+  const prev = currentImage === 0 ? images.length - 1 : currentImage - 1;
+  const next = currentImage === images.length - 1 ? 0 : currentImage + 1;
 
   const moveSlider = (direction: 'left' | 'right') => {
     if (direction === 'left') {
@@ -20,7 +26,7 @@ export const ImageSlider: React.FC<Props> = ({gameImages}) => {
 
   return (
     <div className={styles.imageSlider}>
-      {gameImages.map((image, index) => {
+      {images.map((image, index) => {
         let type = '';
         if (index === currentImage) {
           type = styles.active

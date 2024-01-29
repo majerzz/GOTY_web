@@ -1,9 +1,9 @@
 import { css } from "@emotion/css";
 
 export const styles = {
-  contentBlock: (bgImage: any) => {
-    return (
-      css`
+    contentBlock: (bgImage:any) => {
+      return (
+        css`
         background-image: url(${bgImage});
         width: auto;
         height: 100vh;
@@ -18,8 +18,8 @@ export const styles = {
         font-family: 'Play', sans-serif;
         color: #FFF;
       `
-    )
-  },
+      )
+    },
   mainInfo: css`
     display: flex;
     line-height: 1.7;
