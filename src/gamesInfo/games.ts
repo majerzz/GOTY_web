@@ -10,7 +10,7 @@ import eldenringimg2 from 'src/img/eldenRing/eldenring-screen2.webp'
 import eldenringimg3 from 'src/img/eldenRing/eldenring-screen3.webp'
 import eldenringimg4 from 'src/img/eldenRing/eldenring-screen4.webp'
 import eldenringimg5 from 'src/img/eldenRing/eldenring-screen5.jfif'
-import takestwoimg1 from 'src/img/itTakesTwo/takestwo-screen1.jpg'git
+import takestwoimg1 from 'src/img/itTakesTwo/takestwo-screen1.jpg'
 import takestwoimg2 from 'src/img/itTakesTwo/takestwo-screen2.jpg'
 import takestwoimg3 from 'src/img/itTakesTwo/takestwo-screen3.jpeg'
 import takestwoimg4 from 'src/img/itTakesTwo/takestwo-screen4.jpg'
