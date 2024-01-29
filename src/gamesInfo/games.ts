@@ -31,7 +31,7 @@ export const games = [
     gameDescription: `Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.`,
     bgImage: image2022,
     gameImages: [eldenringimg1, eldenringimg2, eldenringimg3, eldenringimg4, eldenringimg5]
-  },пше
+  },
   {
     year: '2021',
     gameName: `It Takes Two`,
