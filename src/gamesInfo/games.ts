@@ -1,9 +1,9 @@
-import image2023 from 'src/img/bg3.jpg'
+import image2023 from 'src/img/bg3/bg3.jpg'
 import image2022 from 'src/img/eldenRing/eldenring.jpg'
 import image2021 from 'src/img/itTakesTwo/ittakestwo.jpg'
-import bgimg1 from 'src/img/bg-screen1.jpg'
-import bgimg2 from 'src/img/bg-screen2.jpg'
-import bgimg3 from 'src/img/bg-screen3.jpg'
+import bgimg1 from 'src/img/bg3/bg-screen1.jpg'
+import bgimg2 from 'src/img/bg3/bg-screen2.jpg'
+import bgimg3 from 'src/img/bg3/bg-screen3.jpg'
 import bgimg4 from 'src/img/bg-screen4.webp'
 import eldenringimg1 from 'src/img/eldenRing/eldenring-screen1.jpg'
 import eldenringimg2 from 'src/img/eldenRing/eldenring-screen2.webp'
@@ -31,7 +31,7 @@ export const games = [
     gameDescription: `Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.`,
     bgImage: image2022,
     gameImages: [eldenringimg1, eldenringimg2, eldenringimg3, eldenringimg4, eldenringimg5]
-  },пше
+  },
   {
     year: '2021',
     gameName: `It Takes Two`,
