@@ -3,7 +3,7 @@ import { css } from "@emotion/css";
 export const styles = {
   imageSlider: css`
     position: relative;
-    width: 600px;
+    width: 700px;
     height: 100%;
     align-items: center;
   `,
@@ -29,7 +29,7 @@ export const styles = {
     left: auto;
   `,
   active: css`
-    transform: scale(1.5);
+    transform: scale(2);
     filter: unset;
     z-index: 3;
   `,

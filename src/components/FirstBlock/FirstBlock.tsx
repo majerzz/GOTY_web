@@ -5,7 +5,7 @@ import { Timer } from "src/components/FirstBlock/components/MainInfo/components/
 
 export const FirstBlock:React.FC = () => {
   return (
-    <section className={styles.firstBlock}>
+    <section id='main' className={styles.firstBlock}>
       <NavigationBar/>
       <MainInfo/>
     </section>
