@@ -5,15 +5,20 @@ import bgimg1 from 'src/img/bg3/bg-screen1.jpg'
 import bgimg2 from 'src/img/bg3/bg-screen2.jpg'
 import bgimg3 from 'src/img/bg3/bg-screen3.jpg'
 import bgimg4 from 'src/img/bg3/bg-screen4.webp'
+import bgimage5 from 'src/img/thelastofus/thelastofus-bg.jpg'
 import eldenringimg1 from 'src/img/eldenRing/eldenring-screen1.jpg'
 import eldenringimg2 from 'src/img/eldenRing/eldenring-screen2.webp'
 import eldenringimg3 from 'src/img/eldenRing/eldenring-screen3.webp'
 import eldenringimg4 from 'src/img/eldenRing/eldenring-screen4.webp'
 import eldenringimg5 from 'src/img/eldenRing/eldenring-screen5.jfif'
-import takestwoimg1 from 'src/img/itTakesTwo/takestwo-screen1.jpg'git
+import takestwoimg1 from 'src/img/itTakesTwo/takestwo-screen1.jpg'
 import takestwoimg2 from 'src/img/itTakesTwo/takestwo-screen2.jpg'
 import takestwoimg3 from 'src/img/itTakesTwo/takestwo-screen3.jpeg'
 import takestwoimg4 from 'src/img/itTakesTwo/takestwo-screen4.jpg'
+import lastofusimg1 from 'src/img/thelastofus/lastofus-screen1.jpg'
+import lastofusimg2 from 'src/img/thelastofus/lastofus-screen2.jpg'
+import lastofusimg3 from 'src/img/thelastofus/lastofus-screen3.webp'
+import lastofusimg4 from 'src/img/thelastofus/lastofus-screen4.jfif'
 
 
 export const games = [
@@ -39,5 +44,13 @@ export const games = [
     designed for split-screen cooperative multiplayer, which means that it must be played with another player through either local or online play.`,
     bgImage: image2021,
     gameImages: [takestwoimg1, takestwoimg2, takestwoimg3, takestwoimg4]
+  },
+  {
+    year: '2020',
+    gameName: `The Last Of Us Part 2`,
+    gameDescription: `The Last of Us Part II is an action-adventure game played from a third-person perspective featuring 
+    elements of the survival horror genre. The player traverses post-apocalyptic environments such as buildings and forests to advance the story.`,
+    bgImage: bgimage5,
+    gameImages: [lastofusimg1, lastofusimg2, lastofusimg3, lastofusimg4]
   }
 ]

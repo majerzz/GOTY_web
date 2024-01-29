@@ -42,6 +42,7 @@ function App() {
       <ContentBlock {...games[0]} />
       <ContentBlock {...games[1]} />
       <ContentBlock {...games[2]} />
+      <ContentBlock {...games[3]} />
     </div>
   );
 }
